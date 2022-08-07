@@ -10,7 +10,6 @@
 
 
 int main(int argc, char **argv) {
-
     const char* path = argv[1];
     char* source = readFile(path);
 
