@@ -1,2 +1,2 @@
 #!/bin/bash
-./build/tiger
+./build/tiger $1

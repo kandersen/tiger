@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Debug Tiger",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/tiger",
+            "args": ["testdata/scanner/test0.tig"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "build"
+        }
+    ],
+    "version": "2.0.0"
+}
